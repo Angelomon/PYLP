@@ -1,0 +1,49 @@
+program Ejercicio3;
+
+
+function esPrimo(n: integer): boolean;
+var
+    i: integer;
+	cant: integer;
+begin
+	esPrimo:= false;
+	cant:=0;
+	for i:=1 to n do
+	begin
+		if (n mod i = 0) then
+		begin
+			cant:= cant + 1;
+		end;
+	end;
+	if(cant = 2) then
+		esPrimo:= true;
+	else
+		esPrimo:= false;
+	end;
+end;
+
+process type imprimir(lim1,lim2:integer);
+var
+	x:integer;
+	num:integer;
+begin
+	num:=lim1;
+	for x:=lim1 to lim2 do
+	begin
+		writeln('N° ', x, ' es primo: ',esPrimo(x));
+	end;
+
+end;
+
+var
+  	p1,p2,p3,p4: imprimir;
+begin
+
+	cobegin
+		p1(1,25);
+		p2(25,50);
+		p3(50,75);
+		p4(75,100);
+	coend;
+
+end.

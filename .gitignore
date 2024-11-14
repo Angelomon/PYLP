@@ -2,3 +2,8 @@
 *.lst
 .vscode
 **/node_modules/
+**/openmpi-5.0.5/
+**/.openmpi
+**/.openmpi-5.0.5-1.src.rpm
+unidad_3/openmpi-5.0.5.tar.bz2
+unidad_3/openmpi-5.0.5-1.src.rpm
