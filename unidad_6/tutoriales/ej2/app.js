@@ -4,13 +4,13 @@ console.log('Entro al app');
 
     // PASO 3. Inicializar Firebase
       const config = {
-        apiKey: "AIzaSyCJFDI8QQYSsB94MBBrtOo6o",
-        authDomain: "pylp.firebaseapp.com",
-        databaseURL: "https://pylp2.firebaseio.com",
-        projectId: "pylp",
-        storageBucket: "pylp2.appspot.com",
-        messagingSenderId: "15996538",
-        appId: "1:15930538:web:4c1e834d8ca8e7083"
+        apiKey: "AIzaSyCdiNV-w8h_dvPL7FJZk9P7lxSVLikhArg",
+        authDomain: "pylp2024-87ff3.firebaseapp.com",
+        databaseURL: "https://pylp2024-87ff3-default-rtdb.firebaseio.com",
+        projectId: "pylp2024-87ff3",
+        storageBucket: "pylp2024-87ff3.firebasestorage.app",
+        messagingSenderId: "431421279374",
+        appId: "1:431421279374:web:6780ab1da2a00e1f560ddf"
 
     };
       firebase.initializeApp(config);
@@ -35,5 +35,5 @@ console.log('Entro al app');
       // PASO 8. Otra opción para mostrar en pantalla
       dbRefObject.on('value', snap => {preObject.innerText = JSON.stringify(snap.val(),null, 3);});
     
-     
+    
     } ());

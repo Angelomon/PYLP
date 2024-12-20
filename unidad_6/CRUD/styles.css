@@ -1,0 +1,175 @@
+* {
+    box-sizing: border-box;
+    }
+    
+    *:focus {
+        outline: none;
+    }
+    body {
+    font-family: Arial;
+    background-color: #3498DB;
+    padding: 50px;
+    justify-content: center;
+    align-items: center;
+    }
+    .login {
+    margin: 20px auto;
+    width: 300px;
+    display: flex;
+    }
+    .login-screen {
+    background-color: #FFF;
+    padding: 20px;
+    border-radius: 10px;
+    
+    }
+    
+    .app-title {
+    text-align: center;
+    color: #777;
+    }
+    
+    .login-form {
+    text-align: center;
+    }
+    .control-group {
+    margin-bottom: 10px;
+    }
+    
+    input {
+    text-align: center;
+    background-color: #ECF0F1;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 200;
+    padding: 10px 0;
+    width: 250px;
+    transition: border .5s;
+    }
+    
+    input:focus {
+    border: 2px solid #3498DB;
+    box-shadow: none;
+    }
+    
+    .btn {
+        border: 2px solid transparent;
+        font-size: 16px;
+        line-height: 25px;
+        padding: 10px 0;
+        text-decoration: none;
+        text-shadow: none;
+        border-radius: 10px;
+        box-shadow: none;
+        transition: 0.25s;
+        display: block;
+        width: 250px;
+        margin: 0 auto;
+    }
+    .option{
+        text-align:center;
+    }
+    .btn:hover {
+        background-color: #2980B9;
+    }
+    .btn-danger:hover{
+        background-color: #c82333;
+    }
+    .btn-warning:hover{
+        background-color: #e0a800;
+    }
+    .login-link {
+        font-size: 12px;
+        color: #444;
+        display: block;
+        margin-top: 12px;
+    }
+    .modal-title {
+        text-align: center;
+        color: #777;
+    }                          
+    .modal-body{
+        font-family: Arial;
+        background-color: #3498DB;
+        padding: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+.navbar {
+    position: fixed; /* Mantiene el navbar siempre visible en la parte superior */
+    top: 0;
+    left: 0;
+    width: 100%; /* Ocupa todo el ancho de la pantalla */
+    background-color: #333; /* Color de fondo */
+    color: white;
+    padding: 5px; /* Espaciado interno */
+    text-align: center;
+    display: flex;
+    align-items: center;   /* Centra verticalmente */
+    height: 60px; /* Ajusta la altura del navbar */
+}
+.form-control{
+    border: 2px solid transparent;
+    font-size: 16px;
+    line-height: 25px;
+    padding: 10px 0;
+    text-decoration: none;
+    text-shadow: none;
+    border-radius: 10px;
+    box-shadow: none;
+    transition: 0.25s;
+    display: block;
+    width: 250px;
+    margin: 0 auto;
+}
+.form-select{
+    border: 2px solid transparent;
+        font-size: 16px;
+        line-height: 25px;
+        padding: 10px 0;
+        text-decoration: none;
+        text-shadow: none;
+        border-radius: 10px;
+        box-shadow: none;
+        transition: 0.25s;
+        display: block;
+        width: 250px;
+        margin: 0 auto;
+
+}
+#torneos{
+    background-color: #FFF;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+
+}
+#opciones{
+    border: 2px solid transparent;
+    font-size: 16px;
+    line-height: 25px;
+    padding: 10px 0;
+    text-decoration: none;
+    text-shadow: none;
+    border-radius: 10px;
+    box-shadow: none;
+    transition: 0.25s;
+    display: block;
+    width: 250px;
+    margin: 0 auto;
+}
+#btnCerrarSesion {
+    margin-left: 85%; /* Empuja el botón hacia la derecha */
+    background-color: #dc3545;
+    border: 4px solid transparent;
+    font-size: 16px;
+    line-height: 25px;
+    padding: 5px 0;
+    border-radius: 5px;
+    box-shadow: none;
+    transition: 0.25s;
+    width: auto;
+    margin: auto 0;
+}
